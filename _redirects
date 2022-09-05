@@ -1,1 +1,0 @@
-/api/* http://api.weatherstack.com/current:splat 200!
