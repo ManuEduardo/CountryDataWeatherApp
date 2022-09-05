@@ -12,7 +12,7 @@ const Weather = ({ capital }) => {
       query: capital[0],
     };
     axios
-      .get("http://api.weatherstack.com/current", { params })
+      .get("/api/", { params })
       .then((response) => {
         setCityInfo(response.data);
       })
